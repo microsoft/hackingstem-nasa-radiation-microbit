@@ -7,6 +7,13 @@
 #   detect and measure different wavelengths in various types of 
 #   light sources.
 #
+#  Pin Connections:
+#   Pin 0: IR LED
+#   Pin 1: Red LED
+#   Pin 2: Green LED
+#   Pin 3: Blue LED
+#   Pin 4: UV LED
+#
 #  This project uses a BBC micro:bit microcontroller, information at:
 #  https://microbit.org/
 #
