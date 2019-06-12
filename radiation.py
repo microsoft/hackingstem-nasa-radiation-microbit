@@ -47,7 +47,7 @@ EOL = '\n' # End of Line Character
 
 # This function reads voltage of from each pin attached to an LED  sensor 
 def process_sensors():
-    #declare the LED variables 
+    #declare the LED  sensor variables 
     global light_sensor_1, light_sensor_2, light_sensor_3, light_sensor_4, light_sensor_5 
 
     #read analog voltage!
