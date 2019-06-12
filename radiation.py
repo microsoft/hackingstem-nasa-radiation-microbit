@@ -34,7 +34,6 @@ LED_SENSOR_PIN2 = pin1
 LED_SENSOR_PIN3 = pin2
 LED_SENSOR_PIN4 = pin3
 LED_SENSOR_PIN5 = pin4
-int  light_sensor_1, light_sensor_2, light_sensor_3, light_sensor_4, light_sensor_5
 
 # Setup & Config
 display.off()  # Turns off LEDs to free up additional input pins
@@ -46,9 +45,12 @@ uart.init(baudrate=9600)  # Sets serial baud rate
 DATA_RATE = 10 # Frequency of code looping
 EOL = '\n' # End of Line Character
 
-
+# This function reads voltage of from each pin attached to an LED  sensor 
 def process_sensors():
-    # This function reads voltage of from each pin attached to an LED  sensor 
+    #declare the LED variables 
+    global light_sensor_1, light_sensor_2, light_sensor_3, light_sensor_4, light_sensor_5 
+
+    #read analog voltage!
     light_sensor_1 = LED_SENSOR_PIN1.read_analog()
     light_sensor_2 = LED_SENSOR_PIN2.read_analog()
     light_sensor_3 = LED_SENSOR_PIN3.read_analog()
@@ -62,8 +64,8 @@ def process_sensors():
 
 while (True):
     process_sensors()
-    serial_in_data = getData()
     #uart is the micro:bit command for serial
-    uart.write('{},{},{},{},{}'.format(light_sensor_1, light_sensor_2, light_sensor_3, light_sensor_4, light_sensor_5)+EOL)
+    uart.write('{},{},{},{},{}'.format(light_sensor_1, light_sensor_2, 
+    light_sensor_3, light_sensor_4, light_sensor_5)+EOL)
 
     sleep(DATA_RATE)
