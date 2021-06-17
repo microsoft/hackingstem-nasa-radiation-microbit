@@ -1,6 +1,7 @@
 # ------------__ Hacking STEM – radiation.py – micro:bit __-----------
 #  This project is for use with the EM spectrum lesson plan 
 #  available from Microsoft Education Workshop at 
+#  https://aka.ms/EMspectrum
 #  http://aka.ms/hackingSTEM
 #
 #  Overview: This sketch uses LEDs as light sensors (photodiodes) to 
