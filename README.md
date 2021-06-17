@@ -5,7 +5,7 @@ Microcontroller code for Microsoft Hacking STEM What is the electromagnetic spec
 This spectrometer project uses LEDs as light sensors (photodiode) to detect and measure different wavelengths in various types of light sources.
 
 # Getting Started
-1.	Download lesson assets at https://aka.ms/hackingSTEM
+1.	Download lesson assets at https://aka.ms/EMspectrum
 2.	Build the spectrometer!
 3.	Use [Mu](https://codewith.mu/) to flash the NasaRadiationMicrobit.py to the 
 [micro:bit](https://microbit.org/) microcontroller.
@@ -21,4 +21,4 @@ This project is licensed under the MIT open source license, see License. The MIT
 
 Fork away! Let us know what you build!
 
-**This is an archived repository.**
+https://aka.ms/hackingSTEM
