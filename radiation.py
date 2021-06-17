@@ -20,6 +20,7 @@
 #
 #  Comments, contributions, suggestions, bug reports, and feature
 #  requests are welcome!
+#  https://github.com/microsoft/hackingstem-nasa-radiation-microbit
 #
 #  Copyright 2019, Jen Fox
 #  Microsoft EDU Workshop - HackingSTEM
